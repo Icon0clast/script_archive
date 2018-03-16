@@ -3,7 +3,7 @@ from urllib.request import urlopen
 import json
 from datetime import datetime, timedelta
 
-shodanApiKey = 'GwQvrMaovMlfyoslpSiaQrZia2VNjaQF'
+shodanApiKey = <shodan key>
 
 def connect(url, data, headers): # Function makes request with passed variables
     request = urllib.request.Request(url, data, headers)
